@@ -2,7 +2,7 @@ p {
 	font-family: monospace;
 }
 section {
-	padding: 50px 0;
+	padding: 5% 0;
 	position: relative;
 }
 
@@ -34,17 +34,19 @@ header {
 	}
 	nav {
 		a {
-			font-size: 1.1em;
+			font-size: 1.5em;
 			color: white !important;
 			font-weight: bold;
+			font-family: 'Unica One', cursive !important;
 			&:hover {
-				font-size: 1.2em;
+				font-size: 1.7em;
 			}
 		}
 		.active a {
 			font-weight: bold;
 			background-color: transparent !important;
-			font-size: 1.2em;
+			font-size: 1.7em;
+			color: #fd6051 !important;
 		}
 	}
 	#head {
@@ -71,6 +73,7 @@ header {
 		border-radius: 50%;
 		background: white;
 		margin: 0 auto;
+		width: 85%;
 	}
 }
 
@@ -88,17 +91,15 @@ header {
 	p {
 		font-size: 1.5em;
 	}
-	a {
+	.skill {
 		i, p {
 			font-size: 8em;
 			color: rgba(57, 32, 51, 0.85);
 		}
 		i:hover {
-			font-size: 9em;
 			color: #392033;
 		}
 		p:hover {
-			font-size: 9em;
 			color: #392033;
 		}
 	}

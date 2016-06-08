@@ -2,7 +2,7 @@ p {
   font-family: monospace; }
 
 section {
-  padding: 50px 0;
+  padding: 5% 0;
   position: relative; }
 
 h3 {
@@ -27,15 +27,17 @@ header {
     background-color: #392033 !important;
     border-color: transparent !important; }
   header nav a {
-    font-size: 1.1em;
+    font-size: 1.5em;
     color: white !important;
-    font-weight: bold; }
+    font-weight: bold;
+    font-family: 'Unica One', cursive !important; }
     header nav a:hover {
-      font-size: 1.2em; }
+      font-size: 1.7em; }
   header nav .active a {
     font-weight: bold;
     background-color: transparent !important;
-    font-size: 1.2em; }
+    font-size: 1.7em;
+    color: #fd6051 !important; }
   header #head {
     padding: 15%; }
     header #head h1 {
@@ -54,7 +56,8 @@ header {
   #aboutMe img {
     border-radius: 50%;
     background: white;
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 85%; }
 
 #skills {
   padding-top: 0% !important;
@@ -68,14 +71,12 @@ header {
     font-weight: 600; }
   #skills p {
     font-size: 1.5em; }
-  #skills a i, #skills a p {
+  #skills .skill i, #skills .skill p {
     font-size: 8em;
     color: rgba(57, 32, 51, 0.85); }
-  #skills a i:hover {
-    font-size: 9em;
+  #skills .skill i:hover {
     color: #392033; }
-  #skills a p:hover {
-    font-size: 9em;
+  #skills .skill p:hover {
     color: #392033; }
 
 #proyectos {
