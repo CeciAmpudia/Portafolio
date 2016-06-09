@@ -41,7 +41,7 @@ header {
   header #head {
     padding: 15%; }
     header #head h1 {
-      font-size: 2em;
+      font-size: 3em;
       font-family: 'Unica One', cursive; }
 
 #aboutMe {
@@ -49,7 +49,8 @@ header {
   background: #fd6051;
   background: -moz-linear-gradient(-45deg, #fd6051, #392033);
   background: -webkit-linear-gradient(-45deg, #fd6051, #392033);
-  background: linear-gradient(0deg, #fd6051 0%, #392033 100%); }
+  background: linear-gradient(0deg, #fd6051 0%, #392033 100%);
+  padding-bottom: 0; }
   #aboutMe p {
     font-size: 1.4em;
     margin: 10%; }
@@ -85,28 +86,19 @@ header {
   background: -moz-linear-gradient(-45deg, #fec051, #ff8967);
   background: -webkit-linear-gradient(-45deg, #fec051, #ff8967);
   background: linear-gradient(0deg, #fec051 0%, #ff8967 100%); }
-  #proyectos a img {
-    opacity: 0.9;
-    border: 10px solid white;
-    margin-bottom: 4%; }
-    #proyectos a img:hover {
-      opacity: 2; }
-  #proyectos .modal-content {
-    background-color: #392033 !important;
-    color: white; }
-    #proyectos .modal-content button {
-      color: white; }
-    #proyectos .modal-content .modal-header {
-      border-bottom: none; }
-    #proyectos .modal-content .modal-body a {
-      background-color: rgba(255, 137, 103, 0.95); }
-    #proyectos .modal-content .modal-body .btn-default {
-      color: white;
-      border-color: #ff8967; }
-    #proyectos .modal-content .modal-body .btn-default:hover {
-      background-color: #ff8967; }
-    #proyectos .modal-content .modal-footer {
-      border-top: none; }
+  #proyectos figure.effect-bubba {
+    background: #392033; }
+  #proyectos .grid figure {
+    margin: 5px 1%;
+    min-width: 100%;
+    max-width: 100%;
+    border: 5px solid white; }
+    #proyectos .grid figure span {
+      font-weight: 600; }
+  #proyectos .btn-default {
+    color: white;
+    background-color: #fd6051;
+    border-color: #fd6051; }
 
 #contact {
   color: #fd6051;
