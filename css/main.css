@@ -2,7 +2,7 @@ p {
   font-family: monospace; }
 
 section {
-  padding: 5% 0;
+  padding: 9% 0;
   position: relative; }
 
 h3 {
@@ -54,14 +54,21 @@ header {
   #aboutMe p {
     font-size: 1.4em;
     margin: 10%; }
+  #aboutMe .text {
+    font-size: 1.5em;
+    margin: 2% !important; }
   #aboutMe img {
     border-radius: 50%;
     background: white;
     margin: 0 auto;
     width: 85%; }
+  #aboutMe #cv {
+    color: #392033;
+    font-weight: 600;
+    font-size: 1.5em; }
 
 #skills {
-  padding-top: 0% !important;
+  padding-top: 4% !important;
   color: #ffe577;
   background: #ff8967;
   background: -moz-linear-gradient(-45deg, #ff8967, #f);
